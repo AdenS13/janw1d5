@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(53, 48, 48);
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.left {
+    display: flex;
+    color: rgb(88, 87, 87);
+}
+
+.left h1 {
+    color: dodgerblue;
+    font-weight: 1000;
+}
+
+.left h1:hover {
+    color: white;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.left ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.left li {
+    font-size: larger;
+    padding: 12px 0 0 30px;
+}
+
+.left a {
+    text-decoration: none;
+    color: gray;
+}
+
+.left a:hover {
+    color: white;
+    transition: all 300ms ease;
+}
+
+.nav button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    height: 40px;
+    width: 100px;
+}
+
+.nav button:hover {
+    height: 50px;
+    width: 110px;
+    color: dodgerblue;
+    transition: all 300ms ease;
+}
+
+.main-content {
+    display: flex;
+    padding: 38px 485px;
+}
+
+.left-column {
+    flex: 2;
+    height: 800px;
+    margin-right: 40px;
+}
+
+.right-column {
+    flex: 1;
+    height: 500px;
+}
+
+.top-left__container {
+    padding: 0;
+    border: solid 4px rgb(53, 48, 48);
+    height: 445px;
+    width: 913px;
+}
+
+.top-left__container header {
+    position: relative;
+    top: -1px;
+    background: dodgerblue;
+    height: 140px;
+    width: 100%;
+}
+
+.top-left__container header img{
+    height: 150px;
+    padding: 50px 0 0 50px;
+}
+
+.top-left__container header img:hover {
+    height: 180px;
+    transition: all 300ms ease;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h1 {
+    padding: 90px 0 0 50px;
+}
+
+.location img {
+    height: 40px;
+    padding: 0 15px 0 50px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    padding: 10px 0 0 50px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+}
+
+.edit img {
+    height: 40px;
+    padding: 10px 15px 0 50px;
+}
+
+.edit a {
+    padding-top: 10px;
+}
+
+.bottom-left__container {
+    border: solid 4px rgb(53, 48, 48);
+    margin-top: 38px;
+}
+
+.dark-header {
+    background: rgb(53, 48, 48);
+    height: 50px;
+}
+
+.dark-header h1 {
+    padding-left: 10px;
+    color: dodgerblue;
+}
+
+.info-2 {
+    padding: 0 0 0 10px;
+}
+
+.info-2 h2{
+    color: rgb(121, 120, 120);
+}
+
+.top-right__container {
+    border: solid 4px rgb(53, 48, 48);
+    height: 250px;
+}
+
+.dark-header__2 {
+    background: rgb(53, 48, 48);
+    height: 50px;
+    width: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -1px;
+}
+
+.number-back {
+    background: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-back h1 {
+    color: dodgerblue;
+    padding: 3px 0 0 0;
+}
+
+.dark-header__2-text {
+    padding-left: 15px;
+    color: dodgerblue;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+}
+.left-person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 0 15px;
+}
+
+.left-person img {
+    height: 75px;
+}
+
+.left-person h2{
+    padding-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons img {
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.bottom-right__container {
+    margin-top: 38px;
+    border: solid 4px rgb(53, 48, 48);
+    height: 500px;
+}
+
+.dark-header__3 {
+    background: rgb(53, 48, 48);
+    height: 50px;
+    width: 464px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* top: -1px; */
+}
+
+.number-back__2 {
+    background: white;
+    border-radius: 50%;
+    height: 45px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-back__2 h1 {
+    color: dodgerblue;
+    padding: 3px 0 0 0;
+}
+
+.connections-footer {
+    margin-top: 15px;
+    height: 76px;
+    border-top: solid 4px rgb(53, 48, 48);
+    display: flex;
+    align-items: center;
+}
+
+.connections-footer a {
+    padding-left: 15px;
+}
